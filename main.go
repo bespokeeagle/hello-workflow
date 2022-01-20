@@ -32,3 +32,4 @@ func main() {
                 log.Fatalln("Unable to get workflow result", err)
         }
         log.Println("workflow result:", result)
+}
