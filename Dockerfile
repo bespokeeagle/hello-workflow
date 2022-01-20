@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM golang:1.16-alpine
+FROM golang:1.17-alpine
 #specifies the working directory
 WORKDIR /app/
 # copy all the files from the repo
